@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   libreoffice:
-    image: lscr.io/linuxserver/libreoffice
+    image: lscr.io/linuxserver/libreoffice #1.3Gb
     container_name: libreoffice
     environment:
       - PUID=1000
